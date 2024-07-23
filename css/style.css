@@ -389,6 +389,22 @@ h6,
     color: var(--light);
 }
 
+.social-icons {
+    width: 75px;
+}
+
+@media (max-width: 767.98px) {
+    .social-icons {
+        width: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .social-icons {
+        width: 40px;
+    }
+}
+
 /*** Project Portfolio ***/
 #portfolio-flters .btn {
     position: relative;
