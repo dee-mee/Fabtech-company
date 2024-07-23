@@ -393,9 +393,16 @@ h6,
     width: 75px;
 }
 
+.team-image {
+    width: calc(100% - 75px);
+}
+
 @media (max-width: 767.98px) {
     .social-icons {
         width: 50px;
+    }
+    .team-image {
+        width: calc(100% - 50px);
     }
 }
 
@@ -403,7 +410,11 @@ h6,
     .social-icons {
         width: 40px;
     }
+    .team-image {
+        width: calc(100% - 40px);
+    }
 }
+
 
 /*** Project Portfolio ***/
 #portfolio-flters .btn {
