@@ -481,6 +481,18 @@ h6,
     transition-delay: .15s;
 }
 
+.content {
+    position: relative;
+}
+
+.content p {
+    color: #1D1D27;
+
+}
+
+.content li {
+    color: #1D1D27;
+}
 
 /*** Footer ***/
 .footer {
