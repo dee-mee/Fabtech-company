@@ -111,7 +111,22 @@ h6,
 .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin-right: 1rem;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
@@ -482,7 +497,22 @@ h6,
 }
 
 .content {
-    position: relative;
+    positio.logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        max-height: 50px;
+        width: auto;
+        display: block;
+        margin-right: 1rem;
+    }
+    
+    .logo h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }n: relative;
 }
 
 .content p {
