@@ -150,7 +150,12 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 40px;
+    
+        
+    .logo h1{
+        font-size: 1.2rem;
+    }    
     }
 }
 
@@ -167,7 +172,7 @@ h6,
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
-    }
+    }BOH-LOGO.webp
 
     .navbar-light .navbar-nav .nav-link::before {
         position: absolute;
